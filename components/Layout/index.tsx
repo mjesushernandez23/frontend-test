@@ -1,3 +1,5 @@
+import ArrowIcon from "@icons/ArrowIcon";
+
 interface indexProps {
   children: JSX.Element;
 }
