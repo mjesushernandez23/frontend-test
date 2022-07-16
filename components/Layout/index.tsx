@@ -1,4 +1,6 @@
-import ArrowIcon from "@icons/ArrowIcon";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import NavBar from "./NavBar";
 
 interface indexProps {
   children: JSX.Element;
@@ -6,9 +8,13 @@ interface indexProps {
 const index = (props: indexProps) => {
   const { children } = props;
   return (
-    <div>
-      <main>{children}</main>
-    </div>
+    <Box sx={{ display: "flex" }}>
+      <NavBar />
+      <Box component="main">
+        <Toolbar />
+        {children}
+      </Box>
+    </Box>
   );
 };
 

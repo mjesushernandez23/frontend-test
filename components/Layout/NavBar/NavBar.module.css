@@ -1,0 +1,24 @@
+@media (min-width: 769px) {
+  .cont_navbar_desktop {
+    width: 69.93958333333333vw;
+    height: 4.166666666666666vw;
+    margin-left: 15.633333333333335vw;
+    margin-right: 14.427083333333332vw;
+  }
+  .cont_brand_desktop {
+    width: 34.318310446516335%;
+    height: 100%;
+  }
+  .divider_horizontal {
+    width: 0.433990105%;
+    height: 58.6875%;
+  }
+  .icon_brand {
+    width: 37.540144085%;
+    height: 75%;
+  }
+  .icon_logo {
+    width: 37.08445447443798%;
+    height: 81.25%;
+  }
+}
