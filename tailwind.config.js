@@ -1,4 +1,5 @@
 const pxToResponsive = {
+  3: "0.15625vw",
   5: "0.26041666666666663vw",
   13: "0.8333333333333334vw",
   15: "0.78125vw",
@@ -39,6 +40,7 @@ module.exports = {
         800: "#00326C",
       },
       gray: {
+        100: "#FAFAFA",
         600: "#C9CACB",
       },
       white: "#fff",

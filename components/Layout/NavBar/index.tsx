@@ -1,5 +1,6 @@
 //libraries
 import { useState } from "react";
+import Link from "next/link";
 //components
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -12,9 +13,6 @@ import Divider from "@mui/material/Divider";
 //icons
 import MenuIcon from "@mui/icons-material/Menu";
 import Links from "./Links";
-
-import Link from "next/link";
-
 //styles
 import styles from "./NavBar.module.css";
 

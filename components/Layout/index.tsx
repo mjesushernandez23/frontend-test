@@ -1,5 +1,6 @@
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
+import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 interface indexProps {
@@ -8,12 +9,13 @@ interface indexProps {
 const index = (props: indexProps) => {
   const { children } = props;
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box className="flex flex-wrap">
       <NavBar />
       <Box component="main">
         <Toolbar />
         {children}
       </Box>
+      <Footer />
     </Box>
   );
 };

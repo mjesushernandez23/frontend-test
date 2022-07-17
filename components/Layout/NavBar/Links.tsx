@@ -31,9 +31,9 @@ const Links = ({ onMobile, navLinks }: LinksProps) => {
         <Link href={path} key={`link-desktop-${index}`}>
           <Button
             startIcon={icon}
-            classes={{ startIcon: "w-19 h-19 mr-5" }}
+            classes={{ startIcon: "w-19 h-19 ml-0 mr-5 -mt-3" }}
             LinkComponent="a"
-            className="text-blue-250 capitalize text-16 font-bold p-0"
+            className="text-blue-250 capitalize text-16 font-bold p-0 "
           >
             {label}
           </Button>
