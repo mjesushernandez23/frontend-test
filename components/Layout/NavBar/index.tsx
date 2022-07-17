@@ -76,7 +76,7 @@ const NavBar = (props: NavBarProps) => {
           </div>
         </Toolbar>
       </AppBar>
-      <Box component="nav">
+      <Box component="nav" className="lg:hidden">
         <Drawer
           container={container}
           variant="temporary"

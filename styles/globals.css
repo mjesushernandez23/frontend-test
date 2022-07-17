@@ -36,6 +36,12 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+a{
+  text-decoration: none;
+}
+a:hover{
+  cursor: pointer;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

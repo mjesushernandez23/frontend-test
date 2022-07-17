@@ -5,33 +5,26 @@ const WhatsappIcon = ({ className }: WhatsappIconProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="16.392"
-      height="19.35"
-      viewBox="0 0 16.392 19.35"
+      width="28"
+      height="28.003"
+      viewBox="0 0 28 28.003"
+      className={className}
     >
-      <g id="ico_user" transform="translate(0.5 0.5)">
-        <g id="Group_3140" data-name="Group 3140" transform="translate(3.471)">
-          <path
-            id="Path_4502"
-            data-name="Path 4502"
-            d="M203.918,112.18a2.793,2.793,0,1,1-2.793,2.793,2.8,2.8,0,0,1,2.793-2.793m0-1.432a4.225,4.225,0,1,0,4.225,4.225,4.225,4.225,0,0,0-4.225-4.225Z"
-            transform="translate(-199.693 -110.748)"
-            fill="#676d72"
-            stroke="#676d73"
-            strokeWidth="1"
-          />
-        </g>
-        <g id="Group_3141" data-name="Group 3141" transform="translate(0 9.939)">
-          <path
-            id="Path_4503"
-            data-name="Path 4503"
-            d="M210.573,132.078H195.181v-.715a7.7,7.7,0,0,1,15.392,0Zm-13.92-1.432H209.1a6.265,6.265,0,0,0-12.447,0Z"
-            transform="translate(-195.181 -123.667)"
-            fill="#676d72"
-            stroke="#676d73"
-            strokeWidth="1"
-          />
-        </g>
+      <g id="ico_tel" transform="translate(-11.168 -11.164)">
+        <path
+          id="Path_13138"
+          data-name="Path 13138"
+          d="M41.586,43.621c-.811-.173-3.67-1.083-6.478-5.435s-2.459-7.329-2.286-8.137a4.776,4.776,0,0,1,2.845-2.767l.972.21a.338.338,0,0,1,.261.265l.7,3.693a.344.344,0,0,1-.186.366c-1.572.722-2.084.939-2.205,1.448-.239,1.1,3.321,6.619,4.419,6.856.518.106.958-.262,2.264-1.4a.335.335,0,0,1,.411-.02l3.045,2.151a.338.338,0,0,1,.135.345l-.208.975A4.77,4.77,0,0,1,41.586,43.621Z"
+          transform="translate(-13.774 -10.305)"
+          fill="#fff"
+        />
+        <path
+          id="Path_13139"
+          data-name="Path 13139"
+          d="M25.167,13.165a12,12,0,1,1-12,12,12,12,0,0,1,12-12m0-2a14,14,0,1,0,14,14,14.018,14.018,0,0,0-14-14Z"
+          transform="translate(0 0)"
+          fill="#fff"
+        />
       </g>
     </svg>
   );

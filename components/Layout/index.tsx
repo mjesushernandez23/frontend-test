@@ -11,8 +11,8 @@ const index = (props: indexProps) => {
   return (
     <Box className="flex flex-wrap">
       <NavBar />
-      <Box component="main">
-        <Toolbar />
+      <Box component="main" className="w-full h-auto">
+        <Toolbar className="min-h-auto h-80" />
         {children}
       </Box>
       <Footer />
