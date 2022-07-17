@@ -1,6 +1,7 @@
 import ArrowBackgroundIcon from "@icons/ArrowBackgroundIcon";
 import PointBackgroundIcon from "@icons/PointBackgroundIcon";
 import WhatsappIcon from "@icons/WhatsappIcon";
+import CardHome from "./CardHome";
 
 import styles from "./Home.module.css";
 
@@ -9,7 +10,7 @@ interface HomePageProps {
 }
 const HomePage = ({ telWhatsApp }: HomePageProps) => {
   return (
-    <div className={`w-full absolute ${styles.content_home}`}>
+    <div className={`w-full relative z-0 ${styles.content_home}`}>
       <ArrowBackgroundIcon className={`absolute ${styles.arrow_back_icon0}`} />
       <ArrowBackgroundIcon className={`absolute z-10 ${styles.arrow_back_icon1}`} />
       <a
@@ -21,7 +22,7 @@ const HomePage = ({ telWhatsApp }: HomePageProps) => {
         <WhatsappIcon className="w-28 h-28" />{" "}
         <span className="text-17 font-bold">{telWhatsApp}</span>
       </a>
-
+      <CardHome />
       <div className={`absolute bottom-0 w-full flex bg-blue-800 ${styles.footer_background}`}>
         <PointBackgroundIcon className={`absolute ${styles.point_icon}`} />
       </div>

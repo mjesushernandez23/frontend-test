@@ -1,33 +1,38 @@
 @font-face {
   font-family: "nutmeg";
-  src: url("/fonts/nutmeg-extrabolditalic.otf");
+  src: url("/fonts/Nutmeg-Black.ttf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "nutmeg";
+  src: url("/fonts/Nutmeg-ExtraBold.ttf");
   font-weight: 800;
 }
 @font-face {
   font-family: "nutmeg";
-  src: url("/fonts/nutmeg-extrabolditalic.otf");
+  src: url("/fonts/Nutmeg-ExtraBoldItalic.ttf");
   font-weight: 800;
   font-style: italic;
 }
 @font-face {
   font-family: "nutmeg";
-  src: url("/fonts/nutmeg-bold.otf");
+  src: url("/fonts/Nutmeg-Bold.ttf");
   font-weight: 700;
 }
 @font-face {
   font-family: "nutmeg";
-  src: url("/fonts/nutmeg-bolditalic.otf");
+  src: url("/fonts/Nutmeg-BoldItalic.ttf");
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: "nutmeg";
-  src: url("/fonts/nutmeg-regular.otf");
+  src: url("/fonts/Nutmeg-Regular.ttf");
   font-weight: 400;
 }
 @font-face {
   font-family: "nutmeg";
-  src: url("/fonts/nutmeg-book.otf");
+  src: url("/fonts/Nutmeg-Book.ttf");
   font-weight: 350;
 }
 
@@ -36,10 +41,10 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-a{
+a {
   text-decoration: none;
 }
-a:hover{
+a:hover {
   cursor: pointer;
 }
 @tailwind base;

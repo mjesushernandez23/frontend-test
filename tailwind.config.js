@@ -12,6 +12,7 @@ const pxToResponsive = {
   20: "1.0416666666666665vw",
   22: "1.1458333333333333vw",
   24: "1.25vw",
+  26: "1.3541666666666667vw",
   28: "1.4583333333333333vw",
   34: "1.7708333333333333vw",
   36: "1.875vw",
@@ -31,9 +32,13 @@ module.exports = {
       },
       fontSize: pxToResponsive,
       spacing: pxToResponsive,
+      lineHeight: {
+        11: "1.1",
+      },
       minHeight: {
         auto: "auto",
       },
+      borderRadius:pxToResponsive
     },
     colors: {
       blue: {
